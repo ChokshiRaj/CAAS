@@ -339,4 +339,35 @@ option {
 option:hover {
     background-color: #66afe9; /* Change background color */
     color: white; /* Change text color */
+
+}
+/* Mobile (≤ 600px) */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #fea div, #fea2 div {
+    width: 100%;
+  }
+
+  section, form {
+    padding: 10px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  button, #b1 a {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
 }
